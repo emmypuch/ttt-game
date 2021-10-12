@@ -36,6 +36,10 @@ h1 {
   color: #990601;
 }
 
+/* div.toggle {
+  display: none;
+} */
+
 @media screen and (max-width: 768px) {
   nav {
     display: flex;
@@ -47,5 +51,37 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
+  }
+
+  div.toggle {
+    display: block;
+    position: absolute;
+    right: 0;
+    padding-right: 2rem;
+    padding-top: 5px;
+  }
+
+  div.dot {
+    background: #990601;
+    width: 20px;
+    height: 2px;
+    border-radius: 20px;
+  }
+
+  div.dot:nth-child(2) {
+    background: #990601;
+    width: 20px;
+    height: 2px;
+    border-radius: 20px;
+    margin-top: 3px;
+  }
+
+  div.dot:nth-child(3) {
+    background: #990601;
+    width: 20px;
+    height: 2px;
+    border-radius: 20px;
+    margin-top: 3px;
   }
 }

@@ -1,3 +1,7 @@
+// Nav Links Styles
+const navLinks = document.querySelector(".navLinks");
+const links = document.querySelector("#links");
+
 // Hour
 // If hour is between 6am and 12pm: Good Morning!
 // If it is between 12pm and 6am: Good Afternoon!
