@@ -36,9 +36,9 @@ h1 {
   color: #990601;
 }
 
-/* div.toggle {
+div.toggle {
   display: none;
-} */
+}
 
 @media screen and (max-width: 768px) {
   nav {
@@ -47,7 +47,7 @@ h1 {
   }
 
   ul#links {
-    display: inherit;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -60,6 +60,8 @@ h1 {
     right: 0;
     padding-right: 2rem;
     padding-top: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
   }
 
   div.dot {

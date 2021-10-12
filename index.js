@@ -1,6 +1,11 @@
 // Nav Links Styles
-const navLinks = document.querySelector(".navLinks");
-const links = document.querySelector("#links");
+const navLinks = document.querySelector(".navLinks ul");
+const toggle = document.querySelector(".toggle");
+
+toggle.addEventListener("click", function (e) {
+  if (navLinks.style.display === "none") navLinks.style.display = "inherit";
+  else navLinks.style.display = "none";
+});
 
 // Hour
 // If hour is between 6am and 12pm: Good Morning!
